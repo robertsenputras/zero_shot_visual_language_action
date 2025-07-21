@@ -152,9 +152,9 @@ class PileDetectionPipeline:
         # Process and filter detections
         detections = self.process_detections(result, img)
         
-        # Visualize if there are any detections
-        if detections:
-            self.visualize_detections(img, detections)
+        # # Visualize if there are any detections
+        # if detections:
+        #     self.visualize_detections(img, detections)
         
         return detections
 
