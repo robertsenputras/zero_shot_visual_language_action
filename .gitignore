@@ -1,0 +1,5 @@
+venv/
+frames/
+detections/
+videos/
+*.pyc
