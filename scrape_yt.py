@@ -155,7 +155,7 @@ def main():
         help="Frame extraction interval"
     )
     args = parser.parse_args()
-    
+
     # Read video URLs
     with open(args.urls) as f:
         video_urls = [line.strip() for line in f if line.strip()]
